@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "457407888829",
+    "project_id": "app-aluno-e02a8",
+    "storage_bucket": "app-aluno-e02a8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457407888829:android:3dc1e2f77483e98638e6d4",
+        "android_client_info": {
+          "package_name": "com.faccat.appaluno"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKVyyy_uTB2yoai7TC38QZWYU9GOVwgxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

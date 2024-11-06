@@ -1,7 +1,20 @@
+
+
 allprojects {
     repositories {
         google()
         mavenCentral()
+    }
+}
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // Adicione o plugin do Google Services aqui
+        classpath 'com.google.gms:google-services:4.4.2' // Use a versão mais recente
     }
 }
 
@@ -16,3 +29,4 @@ subprojects {
 tasks.register("clean", Delete) {
     delete rootProject.buildDir
 }
+
