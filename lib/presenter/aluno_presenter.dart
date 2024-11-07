@@ -95,6 +95,7 @@ class AlunoPresenter {
   // Método para adicionar um aluno ao Firestore.
   Future<void> addAlunoFirebase(Aluno aluno) async {
     try {
+      print("Salvando aluno no Firestore: ${aluno.toJson()}");
       // Adiciona um novo documento na coleção 'alunos'.
       await alunosRef.add(aluno.toJson());
 
