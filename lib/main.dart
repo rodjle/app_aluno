@@ -5,14 +5,11 @@ import 'package:firebase_core/firebase_core.dart';
 import 'view/aluno_page.dart';
 
 void main() async {
-  try {
-    WidgetsFlutterBinding.ensureInitialized();
-    await Firebase.initializeApp(
-      options: DefaultFirebaseOptions.currentPlatform,
-    );
-  } catch (e) {
-    print('Erro ao inicializar o Firebase: $e');
-  }
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+
   runApp(MyApp());
 }
 
