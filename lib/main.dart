@@ -1,8 +1,17 @@
+import 'package:app_aluno/firebase_options.dart';
 import 'package:flutter/material.dart';
 
 import 'view/aluno_page.dart';
 
-void main() {
+void main() async {
+  try {
+    WidgetsFlutterBinding.ensureInitialized();
+    await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
+  } catch (e) {
+    print('Erro ao inicializar o Firebase: $e');
+  }
   runApp(MyApp());
 }
 
