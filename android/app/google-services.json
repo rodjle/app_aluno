@@ -12,7 +12,20 @@
           "package_name": "com.example.app_aluno"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "457407888829-4ih5ge935a419s42t2deufjqed7o29vg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.app_aluno",
+            "certificate_hash": "968099d1853468d82826b2f32f452a8113735f3a"
+          }
+        },
+        {
+          "client_id": "457407888829-i1ftihf0nd5pt5lpt6g2qpnb4isnhkjn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBKVyyy_uTB2yoai7TC38QZWYU9GOVwgxA"
@@ -20,26 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:457407888829:android:5bc85453a1c074de38e6d4",
-        "android_client_info": {
-          "package_name": "com.faccat.appaluno2"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBKVyyy_uTB2yoai7TC38QZWYU9GOVwgxA"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457407888829-i1ftihf0nd5pt5lpt6g2qpnb4isnhkjn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "457407888829-qa1p280vbnh6f94ts327hdjdaajvb03a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.appAluno"
+              }
+            }
+          ]
         }
       }
     }
