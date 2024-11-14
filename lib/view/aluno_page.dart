@@ -1,3 +1,4 @@
+import 'package:app_aluno/view/camera_page.dart';
 import 'package:flutter/material.dart';
 import '../model/aluno.dart';
 import '../presenter/aluno_presenter.dart';
@@ -80,6 +81,19 @@ class _AlunoPageState extends State<AlunoPage> implements AlunoView {
               if (alunoAdicionado == true) {
                 presenter.fetchAlunosFirebase(); // Recarrega a lista de alunos
               }
+            },
+          ),
+          IconButton(
+            icon: const Icon(Icons.photo_camera,
+                color: Colors.black), // Ícone preto no estilo minimalista
+            onPressed: () async {
+              // Abre a tela camera
+              await Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => CameraPage(),
+                ),
+              );
             },
           ),
         ],
