@@ -1,9 +1,7 @@
 import 'package:app_aluno/firebase_options.dart';
-import 'package:app_aluno/view/login_view.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 
-import 'presenter/login_presenter.dart';
 import 'view/aluno_page.dart';
 
 void main() async {
@@ -38,9 +36,7 @@ class MyApp extends StatelessWidget {
           textTheme: ButtonTextTheme.primary,
         ),
       ),
-      home: LoginView(
-        presenter: LoginPresenter(),
-      ),
+      home: AlunoPage(),
     );
   }
 }
