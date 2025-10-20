@@ -28,7 +28,7 @@ class _AlunoPageState extends State<AlunoPage> implements AlunoView {
     // Inicializa o presenter e busca os alunos
     presenter = AlunoPresenter(this);
     presenter
-        .fetchAlunos(); // Faz a requisição para buscar os alunos no backend
+        .fetchAlunosFirebase(); // Faz a requisição para buscar os alunos no backend
   }
 
   // Método que atualiza a lista de alunos exibida
@@ -78,7 +78,7 @@ class _AlunoPageState extends State<AlunoPage> implements AlunoView {
 
               // Se o aluno foi adicionado com sucesso, atualiza a lista de alunos
               if (alunoAdicionado == true) {
-                presenter.fetchAlunos(); // Recarrega a lista de alunos
+                presenter.fetchAlunosFirebase(); // Recarrega a lista de alunos
               }
             },
           ),
