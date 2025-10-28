@@ -1,45 +1,37 @@
 {
   "project_info": {
-    "project_number": "457407888829",
-    "project_id": "app-aluno-e02a8",
-    "storage_bucket": "app-aluno-e02a8.firebasestorage.app"
+    "project_number": "773484977371",
+    "project_id": "prjaula11",
+    "storage_bucket": "prjaula11.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:457407888829:android:80add3f782aae89738e6d4",
+        "mobilesdk_app_id": "1:773484977371:android:0da476e1e5e3187d3140fe",
         "android_client_info": {
           "package_name": "com.example.app_aluno"
         }
       },
       "oauth_client": [
         {
-          "client_id": "457407888829-4ih5ge935a419s42t2deufjqed7o29vg.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.app_aluno",
-            "certificate_hash": "968099d1853468d82826b2f32f452a8113735f3a"
-          }
-        },
-        {
-          "client_id": "457407888829-i1ftihf0nd5pt5lpt6g2qpnb4isnhkjn.apps.googleusercontent.com",
+          "client_id": "773484977371-oserlro1753bitgivsbn66l2htf2i3h7.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBKVyyy_uTB2yoai7TC38QZWYU9GOVwgxA"
+          "current_key": "AIzaSyAMa6YvVXptsDq70GJTBuDlU2C-e08OiiM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "457407888829-i1ftihf0nd5pt5lpt6g2qpnb4isnhkjn.apps.googleusercontent.com",
+              "client_id": "773484977371-oserlro1753bitgivsbn66l2htf2i3h7.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "457407888829-qa1p280vbnh6f94ts327hdjdaajvb03a.apps.googleusercontent.com",
+              "client_id": "773484977371-bbcdpf4pfmkljtktqf2u1nnq7lnv8to2.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
                 "bundle_id": "com.example.appAluno"

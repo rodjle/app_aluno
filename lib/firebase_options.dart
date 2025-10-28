@@ -51,11 +51,11 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBKVyyy_uTB2yoai7TC38QZWYU9GOVwgxA',
-    appId: '1:457407888829:android:80add3f782aae89738e6d4',
-    messagingSenderId: '457407888829',
-    projectId: 'app-aluno-e02a8',
-    storageBucket: 'app-aluno-e02a8.firebasestorage.app',
+    apiKey: 'AIzaSyAMa6YvVXptsDq70GJTBuDlU2C-e08OiiM',
+    appId: '1:773484977371:android:0da476e1e5e3187d3140fe',
+    messagingSenderId: '773484977371',
+    projectId: 'prjaula11',
+    storageBucket: 'prjaula11.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
